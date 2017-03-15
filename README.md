@@ -1,5 +1,4 @@
 # Repositório de Teste ( Aula Git)
-
-![woman.png](teste)
+![Screenshot](woman.png)
 
 Este repositório é um teste
