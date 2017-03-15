@@ -1,0 +1,100 @@
+
+Configuração de usuário e e-mail:
+git config --global user.name login
+git config --global user.email e-mail
+
+Editor padrão
+git config --global core.editor vim
+
+Editor padrão de diff
+
+git config --global merge.tool vimdiff
+
+Verificar configurações
+git config --lis
+
+Entra no git
+git init
+
+Monitora o arquivo | as modificações
+git add * - adiciona todos os arquivos
+
+Commitar as mudanças
+git commit -m "Descrição meu primeiro commit"
+
+Colocar no repositorio
+git push origin master
+
+
+
+colocar no git hub
+
+…or create a new repository on the command line
+
+echo "# aulagit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin url_do_projeto
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin url_do_projeto
+git push -u origin master
+
+
+Clonar um rep existente
+git clone link
+
+
+comando importante
+git status
+
+
+Comitar um arquivo alterado
+git commit -m "adicionei a palavra teste no arquivo README"
+git push
+
+Atualizar rep local
+git pull
+
+deletar arq
+rm -f arq
+git rm arq
+
+log
+git log
+
+git log -p  ( mostra as diff)
+
+voltar atras na mudança de umarquivo
+
+git checkout -- arq
+
+
+Mostra o servidor remote
+git remote -v
+
+
+
+processo para add alt
+git add *
+git commit -m "desc"
+git push
+
+O que foi feito no ultimo commit
+git diff HEAD~1
+
+
+
+
+
+
+
+
+
+
+
+
+
